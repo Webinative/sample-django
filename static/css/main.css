@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+}
+
+#view-content {
+    padding-inline: 20px;
+    max-width: 768px;
+    margin-inline: auto;
+}
+
+#view-content img {
+    margin-inline: -20px;
+    max-width: calc(100% + 40px);
+}
+
+@media (min-width: 768px) {
+    #view-content {
+        padding-inline: 0;
+    }
+
+    #view-content img {
+        margin-inline: 0;
+        max-width: 100%;
+    }
+}
